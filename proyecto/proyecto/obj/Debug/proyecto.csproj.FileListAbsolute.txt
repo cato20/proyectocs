@@ -1,0 +1,6 @@
+c:\users\intel\documents\visual studio 2015\Projects\proyecto\proyecto\bin\Debug\proyecto.exe.config
+C:\Users\INTEL\documents\visual studio 2015\Projects\proyecto\proyecto\obj\Debug\proyecto.csprojResolveAssemblyReference.cache
+C:\Users\INTEL\documents\visual studio 2015\Projects\proyecto\proyecto\bin\Debug\proyecto.exe
+C:\Users\INTEL\documents\visual studio 2015\Projects\proyecto\proyecto\bin\Debug\proyecto.pdb
+C:\Users\INTEL\documents\visual studio 2015\Projects\proyecto\proyecto\obj\Debug\proyecto.exe
+C:\Users\INTEL\documents\visual studio 2015\Projects\proyecto\proyecto\obj\Debug\proyecto.pdb
