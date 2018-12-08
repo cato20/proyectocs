@@ -44,9 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cliente.cs" />
+    <Compile Include="MenuPersonal.cs" />
+    <Compile Include="MenuRestaurante.cs" />
+    <Compile Include="Mesa.cs" />
     <Compile Include="Personal.cs" />
+    <Compile Include="Platos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Restaurante.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

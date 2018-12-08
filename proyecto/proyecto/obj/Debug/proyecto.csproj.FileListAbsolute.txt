@@ -4,3 +4,10 @@ C:\Users\INTEL\documents\visual studio 2015\Projects\proyecto\proyecto\bin\Debug
 C:\Users\INTEL\documents\visual studio 2015\Projects\proyecto\proyecto\bin\Debug\proyecto.pdb
 C:\Users\INTEL\documents\visual studio 2015\Projects\proyecto\proyecto\obj\Debug\proyecto.exe
 C:\Users\INTEL\documents\visual studio 2015\Projects\proyecto\proyecto\obj\Debug\proyecto.pdb
+C:\Users\cae-1\Downloads\proyectocs-master\proyectocs-master\proyecto\proyecto\bin\Debug\proyecto.exe.config
+C:\Users\cae-1\Downloads\proyectocs-master\proyectocs-master\proyecto\proyecto\bin\Debug\proyecto.exe
+C:\Users\cae-1\Downloads\proyectocs-master\proyectocs-master\proyecto\proyecto\bin\Debug\proyecto.pdb
+C:\Users\cae-1\Downloads\proyectocs-master\proyectocs-master\proyecto\proyecto\obj\Debug\proyecto.csprojAssemblyReference.cache
+C:\Users\cae-1\Downloads\proyectocs-master\proyectocs-master\proyecto\proyecto\obj\Debug\proyecto.csproj.CoreCompileInputs.cache
+C:\Users\cae-1\Downloads\proyectocs-master\proyectocs-master\proyecto\proyecto\obj\Debug\proyecto.exe
+C:\Users\cae-1\Downloads\proyectocs-master\proyectocs-master\proyecto\proyecto\obj\Debug\proyecto.pdb

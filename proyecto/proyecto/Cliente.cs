@@ -6,71 +6,44 @@ using System.Threading.Tasks;
 
 namespace proyecto
 {
-   public class Cliente
+    public class Cliente
     {
-        int _nit;
-        string _nombre;
-         string _apellido;
+        int ci;
+        string nombre;
 
-        public int Nit
-        {
-            get
-            {
-                return _nit;
-            }
-
-            set
-            {
-                _nit = value;
-            }
-        }
-
-        public string Nombre
-        {
-            get
-            {
-                return _nombre;
-            }
-
-            set
-            {
-                _nombre = value;
-            }
-        }
-
-        public string Apellido
-        {
-            get
-            {
-                return _apellido;
-            }
-
-            set
-            {
-                _apellido = value;
-            }
-        }
-
-        public List<Cliente> ListaClientes
-        {
-            get
-            {
-                return _listaClientes;
-            }
-
-            set
-            {
-                _listaClientes = value;
-            }
-        }
-
-        List<Cliente> _listaClientes;
-
+        List<Cliente> listaCliente;
         public Cliente()
         {
-            ListaClientes = new List<Cliente>();
-
+         /*   listaCliente = new List<Cliente>();
+            Cliente cliente1 = new Cliente()
+            {
+                Ci = 1,
+                Nombre = "Carlos",
+            };
+            listaCliente.Add(cliente1);
+            */
         }
-      
+
+        public int Ci { get => ci; set => ci = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
+        public List<Cliente> ListaCliente { get => listaCliente; set => listaCliente = value; }
+
+        public void ingresarCliente()
+        {
+            Console.WriteLine("Ingrese el NIT:");
+            int ci = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Ingrese el nombre:");
+            string nombre = Console.ReadLine();
+
+            Cliente c = new Cliente()
+            {
+                Ci = ci,
+                Nombre = nombre
+            };
+            ListaCliente.Add(c);
+            Console.WriteLine("Se Registro un cliente");
+        }
+
     }
 }

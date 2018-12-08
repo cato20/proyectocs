@@ -6,35 +6,32 @@ using System.Threading.Tasks;
 
 namespace proyecto
 {
-    class Program
+    class MenuRestaurante
     {
-        static void Main(string[] args)
+        public MenuRestaurante()
         {
-          
-            Console.WriteLine("****************MENU PRINCIPAL****************");
+            Console.WriteLine("****************MENU RESTAURANTE****************");
             Console.WriteLine("Elija una opcion!!");
-            Console.WriteLine("1. MENU RESTAURANTE");
-            Console.WriteLine("2. MENU PLATOS");
-            Console.WriteLine("3. MENU CLIENTES");
+            Console.WriteLine("1. ADMINISTRACION DE RESTAURANTE");
+            Console.WriteLine("2. MENU MESAS");
+            Console.WriteLine("3. MENU DEL PERSONAL");
+
             int opcion = Convert.ToInt32(Console.ReadLine());
             switch (opcion)
             {
                 case 1:
-                    MenuRestaurante mr = new MenuRestaurante();
-
+                    //admi del restaurante
                     break;
                 case 2:
+                    //menu Mesas
                     break;
                 case 3:
+                    MenuPersonal mp = new MenuPersonal();
+                   
                     break;
                 default:
                     break;
             }
-            // MenuPersonal m = new MenuPersonal();
-            Mesa m1 = new Mesa();
-            m1.IngresarMesa();
-            Console.ReadKey();
-
         }
     }
 }
